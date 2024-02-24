@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: aliceblue;
+    /* background-image: url(https://img.freepik.com/free-photo/top-view-office-stuff-with-laptop-coffee-cup-black-table_23-2148080464.jpg?w=996&t=st=1708435291~exp=1708435891~hmac=3624d8ddbfb028ccf428f333fba0c6b38aedc839636a46372f7c2d87e826a796); */
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    color: rgb(55, 52, 52);
+}
+nav{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    padding: 8px 30px;
+    background-color: aliceblue;
+}
+.Sidebar{
+    display: none;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+#heading {
+    line-height: 7vh;
+    padding: 20px;
+}
+
+#heading h1 {
+    margin: 0px;
+    
+}
+
+span {
+    color: rgb(24, 228, 235);
+    font-size: 40px;
+}
+
+span:hover {
+    font-size: 45px;
+    transition: 1s;
+}
+
+#heading p {
+    color: rgb(85, 81, 81);
+    
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 2px;
+    background-color: rgb(66, 62, 62);
+    border: none;
+    color: white;
+}
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover {
+    background-color: rgb(103, 98, 98);
+    color: rgb(240, 232, 232);
+    transition: 1s;
+    
+}
+
+#pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pic img {
+    height: 400px;
+    width: 320px;
+    border-radius: 15px;
+    transition: 0.8s;
+}
+
+img:hover {
+    transform: 1s;
+    box-shadow: 0 0 20px 0px rgb(32, 29, 29);
+}
+
+/* Media Query */
+@media(max-width: 600px) {
+    .Sidebar{
+        display: block;
+    }
+    nav a{
+        display: none;
+    }
+    header {
+        display: block;
+    }
+
+    #heading {
+        margin-bottom: 10px;
+    }
+}
+
+/* skills*/
+#skill-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.skills {
+    height: 250px;
+    width: 250px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    background-color: aliceblue;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img img:hover{
+    background-color: rgb(194, 214, 232);
+    transition: 1s;
+    height: 230px;
+    width: 230px;
+    border-radius: 15px;
+}
+@media(max-width: 700px) {
+    #skill-container{
+        display: block;
+    }
+    .skills{
+        margin: 10px auto;
+    }
+   
+}
+
+/* Achievement */
+.Achievement {
+    background-color: rgb(134, 131, 131);
+    padding: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(58, 54, 54);
+    padding: 10px;
+}
+
+.links {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.links svg {
+    color: black;
+}
+
+.detailes {
+    text-align: center;
+    color: white;
+}
