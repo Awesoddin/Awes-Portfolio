@@ -16,22 +16,6 @@ header {
     padding: 15px;
     color: rgb(55, 52, 52);
 }
-nav{
-    display: flex;
-    justify-content: end;
-    gap: 20px;
-    padding: 8px 30px;
-    background-color: aliceblue;
-}
-.Sidebar{
-    display: none;
-}
-nav a{
-    text-decoration: none;
-    color: black;
-    font-size: 25px;
-}
-
 #heading {
     line-height: 7vh;
     padding: 20px;
@@ -159,7 +143,7 @@ img:hover {
 
 /* Footer */
 footer {
-    background-color: rgb(58, 54, 54);
+    background-color: rgb(183, 184, 180);
     padding: 10px;
 }
 
@@ -172,10 +156,10 @@ footer {
 }
 
 .links svg {
-    color: black;
+    color: rgb(0,0,0);
 }
 
 .detailes {
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
