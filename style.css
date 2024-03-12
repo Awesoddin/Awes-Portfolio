@@ -7,6 +7,10 @@ body {
     margin: 0px;
     padding: 0px;
 }
+.navbar-toggler-icon{
+    width: 40px !important;
+    height:  40px !important;
+}
 header {
     background-color: aliceblue;
     /* background-image: url(https://img.freepik.com/free-photo/top-view-office-stuff-with-laptop-coffee-cup-black-table_23-2148080464.jpg?w=996&t=st=1708435291~exp=1708435891~hmac=3624d8ddbfb028ccf428f333fba0c6b38aedc839636a46372f7c2d87e826a796); */
@@ -26,7 +30,7 @@ header {
     
 }
 
-span {
+#heading h1 span {
     color: rgb(24, 228, 235);
     font-size: 40px;
 }
